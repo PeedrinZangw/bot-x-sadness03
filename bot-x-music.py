@@ -3,7 +3,7 @@ import youtube_dl
 from discord.ext import commands
 
 TOKEN = 'NDUyNjI4NzQ4NDI5NDI2Njg4.DhyiQQ.98e3ZgRmwkQa3h3iIVJO2HaJzE4'
-client = commands.Bot(command_prefix = 's2!')
+client = commands.Bot(command_prefix = 's3!')
 
 players = {}
 
