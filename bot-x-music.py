@@ -2,15 +2,15 @@ import discord
 import youtube_dl
 from discord.ext import commands
 
-TOKEN = 'NDUyNjI4NzQ4NDI5NDI2Njg4.DhyiQQ.98e3ZgRmwkQa3h3iIVJO2HaJzE4'
-client = commands.Bot(command_prefix = 's3!')
+TOKEN = 'NDcyOTAyOTY4OTYyNzExNTUy.Dj6R2w.1CKFHnOa4ZPeIjiwYltc0EI8M9s'
+client = commands.Bot(command_prefix = 'gh!')
 
 players = {}
 
 @client.event
 async def on_ready():
-    print('sadness 02 - Online!')
-    await client.change_presence(game=discord.Game(name='Sad Songs 24/7 [BOT SADNESS 03]'))
+    print('Ratazanas bot - Online')
+    await client.change_presence(game=discord.Game(name='proteção para o Castelo do Hazard'))
 
 @client.command(pass_context=True)
 async def join(ctx):
